@@ -1,0 +1,20 @@
+{
+  "browser": "151.0.7922.34",
+  "checks": [
+    "Archive start/resume and safe briefing; dialog keyboard dismissal",
+    "Free-text scripted question with one complete authored reply",
+    "Incomplete report; cancelled confirmation; double-click creates one attempt; no automatic spoilers",
+    "Normal dossier route retrieves all twelve records; discovery leaves original attempt unchanged",
+    "Focused comparison and multi-source directional note create/view/edit",
+    "Evidence presentation challenges Maya without a confession or rewritten initial statement",
+    "Source-labelled timeline remains distinct from hypotheses",
+    "All eight claims and 21 independently selected roles produce 100; private notes excluded",
+    "Note deletion/cancellation cannot alter evidence, draft or attempt",
+    "Explicit spoiler reveal unlocks reasons/reconstruction without regrading old attempts",
+    "All investigation views reflow at 320/390/768/1200/1440 CSS px with no horizontal page overflow",
+    "Replay cancellation/confirmation; fresh permissions and records; original submission history retained",
+    "Page reload/resume; no browser JavaScript errors"
+  ],
+  "passed": 13,
+  "page_errors": []
+}

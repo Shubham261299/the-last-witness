@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "production_frontend": true,
+  "normal_backend": true,
+  "test_mode": false,
+  "dialogue_mode": "ollama",
+  "fresh_first_run": false,
+  "player_data_unchanged": true,
+  "page_errors": []
+}

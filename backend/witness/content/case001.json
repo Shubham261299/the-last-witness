@@ -1,0 +1,200 @@
+{
+  "records": {
+    "E01": {
+      "id": "E01",
+      "title": "Incident handover and gallery plan",
+      "kind": "Recorded observation",
+      "source": "response-team handover compiled at 23:40; includes the incident report, room plan, system legend, clock verification, and VC-04 inventory description.",
+      "created_at": "23:40",
+      "event_range": "23:17:00–23:17:14",
+      "body": [
+        "23:17:00: capsule-absence alert. 23:17:14: Alex Reed reports the display empty through the closed lid. Gallery and display secured. No forced-entry damage. Assigned evening staff: Reed, Chen, Morgan. Capsule VC-04 contains the Vesper Diamond. Follow-up property and records reviews are filed separately.",
+        "The staff corridor connects the security desk, North Gallery, conservation bay and equipment room. The gallery has one usable entrance, a glass-panelled door from the corridor, and no other usable exit or opening. The display case has a separate keyed lid.",
+        "The corridor camera covers the gallery threshold and identifies people at the case through the glass panels. Small objects and hands behind a cart may be obscured. Gallery credentials and display keys are separate; ownership alone does not identify a holder.",
+        "All machine times are museum local time, 12 October 2026, verified within one second. Logs are authentic response-team exports. Testimony remains fallible. Capsule VC-04 has an engraved serial and a tamper-evident seal; the inventory identifies the Vesper Diamond inside."
+      ],
+      "limitation": "reliable for the response team's observations and supplied system facts; “reported missing” does not establish removal time or perpetrator."
+    },
+    "E02": {
+      "id": "E02",
+      "title": "Initial staff statements",
+      "kind": "Statement",
+      "source": "recorded interviews at 23:35, attached to the handover. These are the opening accounts, not objective truth.",
+      "created_at": "23:35",
+      "event_range": "Opening accounts",
+      "body": [
+        "Alex Reed — I stayed at the security desk until the alarm. I used my badge to get into the gallery after it sounded.",
+        "Maya Chen — I checked the capsule and returned it before I closed the case. Nothing from the display left the room in my cart.",
+        "Daniel Morgan — The recorder restart was scheduled. The required recording export completed before I started."
+      ],
+      "limitation": "authentic quotations; the claims require corroboration."
+    },
+    "E03": {
+      "id": "E03",
+      "title": "Alarm notification extract",
+      "kind": "Machine record",
+      "source": "independently preserved display-controller notification history, exported at 23:28.",
+      "created_at": "23:28",
+      "event_range": "23:17:00",
+      "body": [
+        "23:17:00 | CASE-1 | NOTIFICATION RAISED | CAPSULE ABSENT | notification mode: normal.",
+        "Legend: this is the time the notification was emitted, not a measurement of the first absent state."
+      ],
+      "limitation": "accurate notification timestamp; insufficient to date the removal."
+    },
+    "E04": {
+      "id": "E04",
+      "title": "Approved work order and return sign-off",
+      "kind": "Procedure and statement",
+      "source": "museum work order WO-117, approved at 22:55, containing the schedule, procedure, and signed completion entry.",
+      "created_at": "22:55; sign-off 23:12:16",
+      "event_range": "23:10–23:17",
+      "body": [
+        "Curator capsule check: 23:10–23:13. Absence-notification hold: 23:10–23:17. Camera recorder restart: 23:14–23:17. Capsule may be lifted for inspection inside the gallery and must be returned before lid closure. Occupancy history continues throughout notification hold. Do not remove collection items from the gallery. Technician must export recordings before reboot.",
+        "Maya Chen's signed entry — 23:12:16 — Maya Chen — VC-04 returned to cradle; lid closed; condition check complete."
+      ],
+      "limitation": "authentic approved procedure and signature; a signed assertion does not prove the capsule was returned. The schedule is not proof of actual reboot duration."
+    },
+    "E05": {
+      "id": "E05",
+      "title": "Raw capsule occupancy history",
+      "kind": "Machine record",
+      "source": "local display-controller historian, exported at 23:29 with sensor check and clock verification. Independent of the camera recorder.",
+      "created_at": "23:29",
+      "event_range": "23:09:00–23:25:00",
+      "body": [
+        "23:09:00–23:11:41 — capsule PRESENT.",
+        "23:10:00 — notification hold ON; sensor logging ACTIVE.",
+        "23:11:42 — capsule PRESENT → ABSENT.",
+        "23:11:42–23:25:00 — capsule remains ABSENT; no intervening PRESENT state.",
+        "23:17:00 — notification hold OFF; current absent state emitted as notification.",
+        "Post-incident sensor diagnostic passed. No historian discontinuity in supplied interval."
+      ],
+      "limitation": "verified occupancy history, maximum one-second clock error. It identifies a physical state change, not an actor or the capsule serial by itself."
+    },
+    "E06": {
+      "id": "E06",
+      "title": "Display-case lid and key audit",
+      "kind": "Machine record",
+      "source": "display-controller access/contact history and collections key assignment register.",
+      "created_at": "Response-team export",
+      "event_range": "23:10:55–23:25:00",
+      "body": [
+        "M-1 assigned to Maya Chen. 23:10:55 — authorized key M-1, lid OPEN. 23:12:10 — lid CLOSED and LOCKED. No further lid-open event through 23:25. Tamper circuit continuous; no forced-access event."
+      ],
+      "limitation": "reliable event sequence; key assignment is not proof of who held it. Independent observation is needed to establish the person's identity."
+    },
+    "E07": {
+      "id": "E07",
+      "title": "Gallery-door access extract",
+      "kind": "Machine record",
+      "source": "gallery access controller; report for the alarm-response interval, 23:16:50–23:18:00.",
+      "created_at": "Response-team export",
+      "event_range": "23:16:50–23:18:00",
+      "body": [
+        "23:17:06 — credential A-2, assigned Alex Reed, inbound GRANTED. 23:17:07 — gallery door OPEN. 23:17:12 — gallery door CLOSED.",
+        "Coverage: alarm-response interval only, not the full evening. This controller records the gallery door, not the display-case lid."
+      ],
+      "limitation": "records use of a credential assigned to Alex during the stated interval; a credential alone does not identify its holder. Compare event times with other collected records."
+    },
+    "E08": {
+      "id": "E08",
+      "title": "Preserved corridor footage and transcript",
+      "kind": "Recorded observation",
+      "source": "preserved camera recording covering 23:09:00–23:14:00 and 23:17:02–23:18:00, with accessible transcript and labelled stills.",
+      "created_at": "Preserved recording",
+      "event_range": "23:09–23:14; 23:17:02–23:18",
+      "body": [
+        "empty gallery at start; Maya enters with C2 at 23:09:30; Maya is the sole occupant, visibly at the case during 23:10:55–23:12:10; her hands and the capsule are obscured by the cart; she leaves with C2 at 23:12:28; gallery empty afterward; C2 enters the conservation bay at 23:13:04. Recording unavailable 23:14:00–23:17:02. After recording resumes, Alex enters at 23:17:06."
+      ],
+      "limitation": "identifies people, room occupancy, and cart movement. It cannot independently prove the capsule was in the cart or describe unseen events during the gap."
+    },
+    "E09": {
+      "id": "E09",
+      "title": "Security-desk and call record",
+      "kind": "Machine record",
+      "source": "security-console lock audit and a witnessed copy of Alex's handset call-history entry, filed at 23:38. After his 23:35 opening account, the response team asks at 23:36 to check his call timing against the duty log. Alex consents to show the entry; a responder records its start time and duration, confirms the handset's displayed time zone against museum local time, and has Alex confirm that the copied entry is his outgoing call. The recorded duration is 2 minutes 36 seconds. The caller's identity and number are omitted from the dossier.",
+      "created_at": "23:38; witnessed at collection",
+      "event_range": "23:14:08–23:16:56",
+      "body": [
+        "Desk console manually locked at 23:14:08; unlocked at 23:16:56. Personal outgoing call, start 23:14:12, duration 02:36, calculated end 23:16:48. Entry copied from handset with Reed's consent, witnessed and confirmed at collection. Reed acknowledges the call but maintains he stayed at the desk.",
+        "The call end, 23:16:48, is calculated from start 23:14:12 plus duration 02:36. This record contains neither audio nor location data."
+      ],
+      "limitation": "reliable console/call times; neither alone proves Alex's physical location. The calculated call end comes from start plus duration, not a location trace."
+    },
+    "E10": {
+      "id": "E10",
+      "title": "Recorder maintenance execution trace",
+      "kind": "Machine record",
+      "source": "recorder job history and maintenance audit, exported at 23:30.",
+      "created_at": "23:30",
+      "event_range": "23:14:00–23:17:02",
+      "body": [
+        "Operator D. Morgan. Pre-reboot export: SKIPPED BY OPERATOR. Reboot began 23:14:00. Recording resumed 23:17:02. Pre-reboot recording archive remains intact. No delete operation in audited job history. Display-controller historian is a separate device, unaffected by recorder reboot."
+      ],
+      "limitation": "reliable execution trace. It does not establish Daniel's whereabouts every second or rule out every imaginable wrongdoing; it resolves the specific maintenance claim."
+    },
+    "E11": {
+      "id": "E11",
+      "title": "C2 property recovery report",
+      "kind": "Recorded observation",
+      "source": "response-team property search, seal log, photographs, and inventory comparison.",
+      "created_at": "Response-team property report",
+      "event_range": "23:22; 23:26",
+      "body": [
+        "23:22:00 — cart C2 secured in conservation bay under seal S-19. Assigned custodian: Maya Chen. 23:26:00 — S-19 opened by response team; lower drawer opened using its assigned key surrendered by Chen. Sealed capsule engraved VC-04 recovered inside padding beneath condition-check materials. Capsule seal and inventory photographs match E01. Inventory examination confirms the Vesper Diamond inside. No authorized collection transfer for VC-04 is recorded."
+      ],
+      "limitation": "strong recovery and chain-of-custody evidence. Custody or a drawer key alone does not prove when the capsule entered the cart; removal timing needs independent support."
+    },
+    "E12": {
+      "id": "E12",
+      "title": "VC-04 correspondence extract",
+      "kind": "Correspondence",
+      "source": "incident dossier's preserved museum-account correspondence, exported at 23:45. Sender attribution to Maya is verified.",
+      "created_at": "23:45 export",
+      "event_range": "19:42",
+      "body": [
+        "19:42, Maya Chen to private correspondent: ‘VC-04, the Vesper capsule. Proposed price: $180,000, payable to me when you collect tomorrow after the morning shift begins, subject to your inspection. Keep the capsule sealed. No museum invoice.’ Reply: ‘Agreed in principle. Payment at collection, after inspection.’"
+      ],
+      "limitation": "proves a private proposal and agreement in principle, not a completed payment, successful handoff, or physical removal."
+    }
+  },
+  "profiles": {
+    "A01": "I stayed at the desk until the alarm. When it sounded, I went straight to the gallery.",
+    "A02": "That entry was me responding to the alarm. My badge opens the gallery door. It doesn't open the display case.",
+    "A03": "The lid was closed. I could see that the capsule wasn't in its cradle. I reported it; I didn't open the case.",
+    "A04": "I knew there was a scheduled restart. I assumed the missing footage mattered, but I didn't see anyone take the capsule.",
+    "A05": "All right. I left the desk for a personal call in the west service alcove. I was back before the alarm. I said I stayed because I knew how it would look.",
+    "A06": "I left for the call, then returned before the alarm. My first account about staying at the desk was false.",
+    "A07": "Those times match my account of the response: the alarm first, my entry afterward. That tells you about my entry, not everything that happened earlier.",
+    "A08": "That record dates the capsule's absence earlier than the notification. I wasn't watching the case then, so I can't identify who removed it.",
+    "A09": "I can tell you what I did and what I saw. You'll have to compare the records for the rest.",
+    "M01": "I was authorized to inspect the capsule. I returned it to its cradle and closed the case.",
+    "M02": "C2 holds the condition-check materials. Nothing from the display left the gallery in it.",
+    "M03": "The condition check and recorder restart were approved together. The work order sets out the procedure.",
+    "M04": "That is my sign-off. My account is that I returned the capsule before closing the lid.",
+    "M05": "The record shows the cradle stayed empty after closure. That contradicts what I signed. I have no further account to add.",
+    "M06": "C2 is my assigned cart. The report says VC-04 was recovered from its lower drawer. I cannot maintain my earlier claim that nothing left in it.",
+    "M07": "I wrote that message. It describes a private offer with payment due at collection after inspection. I am not answering further questions about the proposed payment.",
+    "M08": "I have given my account. Your conclusion is yours to make.",
+    "M09": "The records contradict my return entry. I have nothing to add to that.",
+    "M10": "The recovery report contradicts my earlier account of the cart. I have nothing to add.",
+    "M11": "I acknowledged writing the offer. I have nothing further to add about it.",
+    "N01": "The restart was scheduled. I completed the required recording export before rebooting.",
+    "N02": "An alarm message tells you when a notification was emitted. A held notification can be later than the sensor change. You need the raw history to date that change.",
+    "N03": "The recorder restart stops camera recording. It doesn't stop the separate display-case controller from logging its sensor.",
+    "N04": "The hold ends at 23:17. If the cradle is still empty then, the controller sends the absence alert. The work order also requires the capsule back before closure.",
+    "N05": "I skipped the export. That was my shortcut, and I hid it. The pre-reboot archive survived, but that doesn't excuse what I said.",
+    "N06": "The reboot was approved. Skipping the export was my decision. My first account about completing it was false.",
+    "N07": "The transition is at 23:11:42, with no return to present in that interval. The 23:17 entry is the later notification. The sensor doesn't identify the person.",
+    "N08": "The recorded absence begins before the reboot. The missing camera interval cannot be when that recorded removal first occurred.",
+    "N09": "I can explain these systems. I can't tell you who handled the capsule without the physical and access records."
+  },
+  "solution": [
+    "The combined evidence establishes that Maya Chen removed the Vesper capsule during her authorized check and took it out in cart C2. The theft itself was not captured on video.",
+    "The machine records show the cradle changing to absent at 23:11:42 and staying empty after the lid closed at 23:12:10. The case audit records no later opening in the supplied interval. The preserved footage independently identifies Maya as the sole person in the gallery during the check and shows her leaving with C2 at 23:12:28. Her hands and the capsule are obscured in that footage. These are separate observations that must be considered together. [E05, E06, E08]",
+    "Maya's signed entry claims she returned the capsule; the occupancy and closure records contradict that claim. The response team's later inventory records VC-04 recovered from C2's lower drawer. Taken with the removal interval and Maya's movements, the recovery supports the conclusion that she carried the capsule out in C2. It does not make the concealed hand movement a filmed event. [E04, E05, E06, E08, E11]",
+    "Her correspondence proposes a $180,000 private sale, with payment due on a future collection after inspection. It supports intent, not a completed payment or handoff. The work order and sensor history explain the 23:17 alert as a notification emitted when the hold expired, after the capsule was already absent. [E03, E04, E05, E12]",
+    "Alex's logged entry followed the notification. His desk account changes when challenged: the call record establishes timing, while his admission supplies the west service alcove location. Daniel's execution trace contradicts his export claim, but his reboot began after the recorded removal. Their separate failings do not explain the earlier removal by Maya. [E02, E03, E05, E07, E09, E10; Alex's corrected testimony]"
+  ]
+}

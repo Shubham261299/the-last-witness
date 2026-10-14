@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "mode": "ollama",
+  "model": "llama3.1:8b",
+  "seconds": 10.484,
+  "single_committed_reply": true,
+  "no_inventory_unlock": true,
+  "survives_service_restart": true
+}

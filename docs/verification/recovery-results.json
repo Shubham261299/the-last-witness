@@ -1,0 +1,37 @@
+{
+  "checks": [
+    "Lost dialogue acknowledgement reconciles once, keeps newer text and preserves character attribution",
+    "Lost note-create acknowledgement recovers its ID; newer edit updates one note instead of creating another",
+    "Committed submission with lost acknowledgement opens its existing result and closes confirmation; no duplicate attempt",
+    "Submission lost before server receipt retries the original confirmation exactly once",
+    "Disconnected reading and local report editing work; acknowledgement of older save preserves and then saves newer text",
+    "Another-tab draft conflict preserves both versions until explicit Reload saved draft; no silent overwrite",
+    "Keyboard dialog focus stays contained, Escape restores game, reduced-motion preference enabled, 200%-equivalent viewport reflows",
+    "Rendered source body, provenance, limits, time values and category labels exceed 4.5:1 text contrast"
+  ],
+  "passed": 8,
+  "page_errors": [],
+  "rendered_contrast": {
+    ".record-body p": {
+      "ratio": 14.17,
+      "size": "16px"
+    },
+    ".source-provenance": {
+      "ratio": 8.54,
+      "size": "13px"
+    },
+    ".source-limits p": {
+      "ratio": 9.6,
+      "size": "13px"
+    },
+    ".record-meta dd": {
+      "ratio": 11.82,
+      "size": "13px"
+    },
+    ".source-kind": {
+      "ratio": 8.86,
+      "size": "13px"
+    }
+  },
+  "limits": "720 CSS px simulates reflow at 200% of a 1440px viewport; full assistive-technology and browser-zoom testing remain manual."
+}

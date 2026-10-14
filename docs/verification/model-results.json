@@ -1,0 +1,95 @@
+{
+  "sample_note": "Four questions per installed model, including cold-load latency where applicable. This is a small prototype check, not a population p95 claim.",
+  "results": [
+    {
+      "model": "qwen2.5:14b",
+      "samples": [
+        {
+          "character": "alex",
+          "expected_topic": "shift",
+          "topic": "shift",
+          "mode": "ollama",
+          "seconds": 14.64,
+          "matched": true,
+          "bounded_reply": true
+        },
+        {
+          "character": "maya",
+          "expected_topic": "cart",
+          "topic": "cart",
+          "mode": "ollama",
+          "seconds": 3.911,
+          "matched": true,
+          "bounded_reply": true
+        },
+        {
+          "character": "daniel",
+          "expected_topic": "scope",
+          "topic": "scope",
+          "mode": "ollama",
+          "seconds": 3.798,
+          "matched": true,
+          "bounded_reply": true
+        },
+        {
+          "character": "maya",
+          "expected_topic": "conclusion",
+          "topic": null,
+          "mode": "ollama",
+          "seconds": 2.329,
+          "matched": false,
+          "bounded_reply": true
+        }
+      ],
+      "median_seconds": 3.854,
+      "max_seconds": 14.64,
+      "matches": 3,
+      "live_model_responses": 4
+    },
+    {
+      "model": "llama3.1:8b",
+      "samples": [
+        {
+          "character": "alex",
+          "expected_topic": "shift",
+          "topic": "shift",
+          "mode": "ollama",
+          "seconds": 9.626,
+          "matched": true,
+          "bounded_reply": true
+        },
+        {
+          "character": "maya",
+          "expected_topic": "cart",
+          "topic": "cart",
+          "mode": "ollama",
+          "seconds": 2.591,
+          "matched": true,
+          "bounded_reply": true
+        },
+        {
+          "character": "daniel",
+          "expected_topic": "scope",
+          "topic": "scope",
+          "mode": "ollama",
+          "seconds": 3.362,
+          "matched": true,
+          "bounded_reply": true
+        },
+        {
+          "character": "maya",
+          "expected_topic": "conclusion",
+          "topic": "conclusion",
+          "mode": "ollama",
+          "seconds": 1.658,
+          "matched": true,
+          "bounded_reply": true
+        }
+      ],
+      "median_seconds": 2.977,
+      "max_seconds": 9.626,
+      "matches": 4,
+      "live_model_responses": 4
+    }
+  ]
+}

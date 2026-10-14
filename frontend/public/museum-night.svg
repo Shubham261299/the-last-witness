@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<defs><linearGradient id="wall" x2="0" y2="1"><stop stop-color="#171b20"/><stop offset="1" stop-color="#292725"/></linearGradient><radialGradient id="light"><stop stop-color="#99805a" stop-opacity=".35"/><stop offset="1" stop-color="#211e1b" stop-opacity="0"/></radialGradient><linearGradient id="case" x2="0" y2="1"><stop stop-color="#697b82" stop-opacity=".3"/><stop offset="1" stop-color="#253035" stop-opacity=".05"/></linearGradient></defs>
+<path fill="url(#wall)" d="M0 0h1200v720H0z"/><path stroke="#71624c" stroke-opacity=".5" fill="none" d="M100 0v465m100-465v470m800-470v470m100-470v475M0 490h1200M0 100h1200"/>
+<path fill="#11171d" stroke="#4f4b41" stroke-width="3" d="M290 100h135v275H290zm485 0h135v275H775z"/><path fill="none" stroke="#7b7059" stroke-width="2" d="M303 113h109v249H303zm485 0h109v249H788z"/>
+<ellipse cx="600" cy="330" rx="400" ry="430" fill="url(#light)"/><path fill="#b89a62" fill-opacity=".06" d="m587 0-195 520h416L613 0z"/>
+<path fill="#161b20" d="M0 491h1200v229H0z"/><path stroke="#595043" stroke-opacity=".55" fill="none" d="m600 491-360 229m360-229 360 229m-650-180h580m-705 70h830"/>
+<ellipse cx="600" cy="570" rx="218" ry="42" fill="#aa8960" opacity=".06"/><path fill="#161a1d" stroke="#645943" stroke-width="2" d="M447 339h306v190H447z"/><path fill="url(#case)" stroke="#839291" stroke-opacity=".5" stroke-width="2" d="m447 339 40-54h226l40 54H447zM487 285v138m226-138v138M447 339v111m306-111v111"/>
+<path fill="#222527" stroke="#847658" stroke-width="2" d="M439 451h322v35H439z"/><path fill="#252527" stroke="#625641" d="M487 486h226v110H487z"/><path fill="#171b1e" d="M475 596h250v13H475z"/>
+<ellipse cx="600" cy="409" rx="59" ry="10" fill="#605645"/><path fill="#262f36" stroke="#92a0a1" stroke-width="2" d="M565 382h70v25h-70z"/><path fill="#b5c6c4" fill-opacity=".45" stroke="#c0d2ce" stroke-width="1.4" d="m581 370 9-11h20l9 11-19 15z"/><path stroke="#d9d2ba" stroke-opacity=".4" d="M581 370h38m-29-11 10 26 10-26"/>
+<path stroke="#c9ab72" stroke-opacity=".6" fill="none" d="M588 0h24M596 0v32h8V0"/><path fill="#000" fill-opacity=".15" d="M0 0h1200v720H0z"/>
+</svg>

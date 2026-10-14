@@ -1,0 +1,14 @@
+{
+  "passed": 8,
+  "checks": [
+    "Six spoiler-free chapters, next/previous, default safe focus, Escape restoration; no game writes or state changes",
+    "Screen hint dismissal survives reload; the guide remains reopenable",
+    "Guide navigation reaches Records; record-request help opens without inspection, collection or report changes",
+    "Questioning, evidence gating, timeline, private notes and per-role citations explain current mechanics without mutations",
+    "Review and history help distinguish draft saving, confirmation, frozen attempts, continued play and spoiler reveal",
+    "Focused comparison help explains claim-level reasoning without creating a note or scoring it",
+    "All four screens and guide reflow at 320/390/768/1440px; keyboard focus stays within the dialog",
+    "Guide remains usable when the backend is disconnected; no fake progress or attempts"
+  ],
+  "page_errors": []
+}
