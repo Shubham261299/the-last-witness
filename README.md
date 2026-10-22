@@ -1,3 +1,11 @@
+<div align="center">
+
+<img src=".github/banner.svg" width="100%" alt="Shubham AI Lab, system 10 (V1 Prototype): Case file → Question 3 staff → Compare 12 records → Rebuild timeline → Evidence-backed report. Stack: Next.js, TypeScript, Python, FastAPI, Ollama.">
+
+[🌐 Portfolio](https://shubham-ai-lab.vercel.app/) · [👤 GitHub profile](https://github.com/Shubham261299) · [💼 LinkedIn](https://www.linkedin.com/in/shubham-jamdar-2571271b3)
+
+</div>
+
 # The Last Witness
 
 A local cinematic detective game: investigate a museum theft, question three staff members, compare twelve source records, reconstruct the timeline and submit an evidence-backed report. V1 implements one fixed replayable case with deterministic scoring and SQLite persistence.
