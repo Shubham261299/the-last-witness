@@ -1,16 +1,24 @@
-<div align="center">
-
-<img src=".github/banner.svg" width="100%" alt="Shubham AI Lab, system 10 (V1 Prototype): Case file → Question 3 staff → Compare 12 records → Rebuild timeline → Evidence-backed report. Stack: Next.js, TypeScript, Python, FastAPI, Ollama.">
-
-[🌐 Portfolio](https://shubham-ai-lab.vercel.app/) · [👤 GitHub profile](https://github.com/Shubham261299) · [💼 LinkedIn](https://www.linkedin.com/in/shubham-jamdar-2571271b3)
-
-</div>
+<img src="docs/images/portfolio-cover.webp" width="100%" alt="The Last Witness: conceptual project artwork matching the portfolio.">
 
 # The Last Witness
 
-A local cinematic detective game: investigate a museum theft, question three staff members, compare twelve source records, reconstruct the timeline and submit an evidence-backed report. V1 implements one fixed replayable case with deterministic scoring and SQLite persistence.
+### Build a case from evidence.
 
-V1 implementation was approved on 14 October 2026. It includes the complete investigation/report/replay loop and bounded local Ollama routing with authored fallback. See [verification and limitations](docs/V1_VERIFICATION.md) and [dependency review](docs/DEPENDENCY_REVIEW.md).
+Investigate a museum theft, question three staff members, compare twelve records, and submit a report supported by sources.
+
+**V1 local prototype · One fixed replayable case. Scripted dialogue works without a model; optional Ollama routing stays local. No hosted game is linked.**
+
+**[Explore the case study ↗](https://shubham-ai-lab.vercel.app/work/the-last-witness)** · [Technical guide](#technical-guide) · [More projects](https://shubham-ai-lab.vercel.app/work)
+
+## Engineering receipt
+
+| Decision | Why it matters |
+| --- | --- |
+| Ground the investigation | Authored records and eligibility rules control which facts are revealed. |
+| Keep scoring deterministic | Evidence roles and report claims determine scoring; the model does not judge guilt. |
+| Bound model involvement | Ollama selects visible dialogue topics, with authored fallback responses. |
+
+## Technical guide
 
 ## Planning documents
 
@@ -105,3 +113,4 @@ Fresh network installation could not be verified inside the agent sandbox. Pytho
 - `backend/tests/`: scoring, dialogue, disclosure and API regression tests.
 - `scripts/`: local setup/start and verification tools.
 - `docs/`: approved baseline, contracts and verification evidence.
+
